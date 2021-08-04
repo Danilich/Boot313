@@ -1,0 +1,33 @@
+<form class="userForm" th:fragment="userForm" style="display:none;">
+    <div class="row justify-content-center align-items-center">
+        <div class="form-group font-weight-bold text-center">
+
+            <label for="id">ID</label>
+            <input disabled class="form-control" id="id" placeholder="ID" type="text"/>
+
+
+            <label for="firstName">First name</label>
+            <input disabled class="form-control" id="firstName" placeholder="First Name" type="text"  />
+
+
+            <label for="lastName">Last name</label>
+            <input disabled class="form-control" id="lastName" placeholder="Last name" type="text" />
+
+
+            <label for="age">Age</label>
+            <input disabled required class="form-control" id="age" placeholder="Age" type="text"/>
+
+
+            <label for="email">Email</label>
+            <input disabled class="form-control" id="email" placeholder="Username" type="text"/>
+
+
+            <label for="multiSelect">Role</label>
+            <select  required size="2" disabled class="form-control" multiple name="role_select" id="multiSelect">
+
+            </select>
+        </div>
+    </div>
+</form>
+
+
